@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="skywang" />
+    <title>Category | skywang</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/feed/" rel="alternate" title="skywang" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/highlight.css">
+    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
+  </head>
+  <script type="text/javascript">
+    function setTimeSpan(){
+    	var date = new Date();
+    	timeSpan.innerText=date.format('yyyy-MM-dd hh:mm:ss');
+    }
+    
+    Date.prototype.format = function(format)
+		{
+    var o =
+    	{
+    	    "M+" : this.getMonth()+1, //month
+    	    "d+" : this.getDate(),    //day
+    	    "h+" : this.getHours(),   //hour
+    	    "m+" : this.getMinutes(), //minute
+    	    "s+" : this.getSeconds(), //second
+    	    "q+" : Math.floor((this.getMonth()+3)/3),  //quarter
+    	    "S" : this.getMilliseconds() //millisecond
+    	}
+    	if(/(y+)/.test(format))
+    	format=format.replace(RegExp.$1,(this.getFullYear()+"").substr(4 - RegExp.$1.length));
+    	for(var k in o)
+    	if(new RegExp("("+ k +")").test(format))
+    	format = format.replace(RegExp.$1,RegExp.$1.length==1 ? o[k] : ("00"+ o[k]).substr((""+ o[k]).length));
+    	return format;
+		}
+  </script>
+  <body onLoad="setInterval(setTimeSpan,1000);">
+    <div id="container">
+      <div id="main" role="main">
+        <header>
+        <h1>Category</h1>
+        </header>
+        <nav>
+        <span><a title="home page" class="" href="/">首页</a></span>
+        <span><a title="categories" class="" href="/categories/">博客</a></span>
+        <!-- del by skywang
+        <span><a title="tags" class="" href="/tags/">标签</a></span>
+        -->
+        <span><a title="links" class="" href="/links/">链接</a></span>
+        <span><a title="about" class="" href="/about/">关于我</a></span>
+        <span><a title="guestbook" class="" href="/guestbook/">留言板</a></span>
+        </nav>
+        <article class="content">
+        <section class="post">
+<div id='tag_cloud'>
+
+<a href="#linux" title="linux" rel="28">linux (28)</a>
+
+<a href="#java" title="java" rel="111">java (111)</a>
+
+<a href="#pattern" title="pattern" rel="24">pattern (24)</a>
+
+<a href="#datastructure" title="datastructure" rel="76">datastructure (76)</a>
+
+<a href="#android" title="android" rel="95">android (95)</a>
+
+<a href="#essay" title="essay" rel="1">essay (1)</a>
+
+<a href="#gradle" title="gradle" rel="1">gradle (1)</a>
+
+<a href="#tomcatjenkins" title="tomcatjenkins" rel="1">tomcatjenkins (1)</a>
+
+<a href="#jenkins" title="jenkins" rel="2">jenkins (2)</a>
+
+</div>
+
+
+
+
+<ul class="listing">
+
+  <li class="listing-seperator" id="linux">linux</li>
+
+  <li class="listing-item">
+  <time datetime="2011-12-01">2011-12-01</time>
+  <a href="http://wangkuiwu.github.com/2011/12/01/jekyll-01/" title="jekyll博客搭建">jekyll博客搭建</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-09-03">2011-09-03</time>
+  <a href="http://wangkuiwu.github.com/2011/09/03/shell/" title="Linux bash总结(三) 实战">Linux bash总结(三) 实战</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-09-02">2011-09-02</time>
+  <a href="http://wangkuiwu.github.com/2011/09/02/shell/" title="Linux bash总结(二) 高级部分">Linux bash总结(二) 高级部分</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-09-01">2011-09-01</time>
+  <a href="http://wangkuiwu.github.com/2011/09/01/shell/" title="Linux bash总结(一) 基础部分">Linux bash总结(一) 基础部分</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-08-02">2011-08-02</time>
+  <a href="http://wangkuiwu.github.com/2011/08/02/vim-02-setup/" title="vim(编辑器之神)02配置篇(二) 插件">vim(编辑器之神)02配置篇(二) 插件</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-08-02">2011-08-02</time>
+  <a href="http://wangkuiwu.github.com/2011/08/02/vim-01-setup/" title="vim(编辑器之神)02配置篇(一) 基本配置">vim(编辑器之神)02配置篇(一) 基本配置</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-08-01">2011-08-01</time>
+  <a href="http://wangkuiwu.github.com/2011/08/01/vim-03-basic/" title="vim(编辑器之神)01基础篇(三) vim指令补充说明">vim(编辑器之神)01基础篇(三) vim指令补充说明</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-08-01">2011-08-01</time>
+  <a href="http://wangkuiwu.github.com/2011/08/01/vim-02-basic/" title="vim(编辑器之神)01基础篇(二) vim模式解析">vim(编辑器之神)01基础篇(二) vim模式解析</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-08-01">2011-08-01</time>
+  <a href="http://wangkuiwu.github.com/2011/08/01/vim-01-basic/" title="vim(编辑器之神)01基础篇(一) vim入门">vim(编辑器之神)01基础篇(一) vim入门</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-05">2011-07-05</time>
+  <a href="http://wangkuiwu.github.com/2011/07/05/ubuntu-01/" title="Linux学习番外篇01 openbox移植相关问题">Linux学习番外篇01 openbox移植相关问题</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-04">2011-07-04</time>
+  <a href="http://wangkuiwu.github.com/2011/07/04/ubuntu-08-cmd/" title="Linux学习基础篇03 ubuntu指令和技巧(八) Jar包">Linux学习基础篇03 ubuntu指令和技巧(八) Jar包</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-04">2011-07-04</time>
+  <a href="http://wangkuiwu.github.com/2011/07/04/ubuntu-07-cmd/" title="Linux学习基础篇03 ubuntu指令和技巧(七) 挂载,卸载,重新分区和格式化">Linux学习基础篇03 ubuntu指令和技巧(七) 挂载,卸载,重新分区和格式化</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-04">2011-07-04</time>
+  <a href="http://wangkuiwu.github.com/2011/07/04/ubuntu-06-cmd/" title="Linux学习基础篇03 ubuntu指令和技巧(六) 压缩和解压">Linux学习基础篇03 ubuntu指令和技巧(六) 压缩和解压</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-04">2011-07-04</time>
+  <a href="http://wangkuiwu.github.com/2011/07/04/ubuntu-05-cmd/" title="Linux学习基础篇03 ubuntu指令和技巧(五) 用户和用户组的相关操作">Linux学习基础篇03 ubuntu指令和技巧(五) 用户和用户组的相关操作</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-04">2011-07-04</time>
+  <a href="http://wangkuiwu.github.com/2011/07/04/ubuntu-04-cmd/" title="Linux学习基础篇03 ubuntu指令和技巧(四) 文件的权限">Linux学习基础篇03 ubuntu指令和技巧(四) 文件的权限</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-04">2011-07-04</time>
+  <a href="http://wangkuiwu.github.com/2011/07/04/ubuntu-03-cmd/" title="Linux学习基础篇03 ubuntu指令和技巧(三) 内容查看和文件查找">Linux学习基础篇03 ubuntu指令和技巧(三) 内容查看和文件查找</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-04">2011-07-04</time>
+  <a href="http://wangkuiwu.github.com/2011/07/04/ubuntu-02-cmd/" title="Linux学习基础篇03 ubuntu指令和技巧(二) 网络相关的指令">Linux学习基础篇03 ubuntu指令和技巧(二) 网络相关的指令</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-04">2011-07-04</time>
+  <a href="http://wangkuiwu.github.com/2011/07/04/ubuntu-01-cmd/" title="Linux学习基础篇03 ubuntu指令和技巧(一) 常用指令汇总">Linux学习基础篇03 ubuntu指令和技巧(一) 常用指令汇总</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-03">2011-07-03</time>
+  <a href="http://wangkuiwu.github.com/2011/07/03/ubuntu-04-software/" title="Linux学习基础篇03 ubuntu软件(四) terminator">Linux学习基础篇03 ubuntu软件(四) terminator</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-03">2011-07-03</time>
+  <a href="http://wangkuiwu.github.com/2011/07/03/ubuntu-03-software/" title="Linux学习基础篇03 ubuntu软件(三) 串口工具minicom">Linux学习基础篇03 ubuntu软件(三) 串口工具minicom</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-03">2011-07-03</time>
+  <a href="http://wangkuiwu.github.com/2011/07/03/ubuntu-02-software/" title="Linux学习基础篇03 ubuntu软件(二) JDK">Linux学习基础篇03 ubuntu软件(二) JDK</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-03">2011-07-03</time>
+  <a href="http://wangkuiwu.github.com/2011/07/03/ubuntu-01-software/" title="Linux学习基础篇03 ubuntu软件(一) 必备软件">Linux学习基础篇03 ubuntu软件(一) 必备软件</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-02">2011-07-02</time>
+  <a href="http://wangkuiwu.github.com/2011/07/02/ubuntu-05-setup/" title="Linux学习基础篇02 ubuntu的配置(五) 工作区和自定义快捷键">Linux学习基础篇02 ubuntu的配置(五) 工作区和自定义快捷键</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-02">2011-07-02</time>
+  <a href="http://wangkuiwu.github.com/2011/07/02/ubuntu-04-setup/" title="Linux学习基础篇02 ubuntu的配置(四) 终端快捷键和常用配置">Linux学习基础篇02 ubuntu的配置(四) 终端快捷键和常用配置</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-02">2011-07-02</time>
+  <a href="http://wangkuiwu.github.com/2011/07/02/ubuntu-03-setup/" title="Linux学习基础篇02 ubuntu的配置(三) 开机自动挂载磁盘分区">Linux学习基础篇02 ubuntu的配置(三) 开机自动挂载磁盘分区</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-02">2011-07-02</time>
+  <a href="http://wangkuiwu.github.com/2011/07/02/ubuntu-02-setup/" title="Linux学习基础篇02 ubuntu的配置(二) 设置默认开机选项">Linux学习基础篇02 ubuntu的配置(二) 设置默认开机选项</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-02">2011-07-02</time>
+  <a href="http://wangkuiwu.github.com/2011/07/02/ubuntu-01-setup/" title="Linux学习基础篇02 ubuntu的配置(一) 启用root登录界面">Linux学习基础篇02 ubuntu的配置(一) 启用root登录界面</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2011-07-01">2011-07-01</time>
+  <a href="http://wangkuiwu.github.com/2011/07/01/ubuntu-01-install/" title="Linux学习基础篇01 双系统中ubuntu的安装方法">Linux学习基础篇01 双系统中ubuntu的安装方法</a>
+  </li>
+
+
+  <li class="listing-seperator" id="java">java</li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-15">2012-08-15</time>
+  <a href="http://wangkuiwu.github.com/2012/08/15/juc-executor06/" title="Java多线程系列--“JUC线程池”06之 Callable和Future">Java多线程系列--“JUC线程池”06之 Callable和Future</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-15">2012-08-15</time>
+  <a href="http://wangkuiwu.github.com/2012/08/15/juc-executor05/" title="Java多线程系列--“JUC线程池”05之 线程池原理(四)">Java多线程系列--“JUC线程池”05之 线程池原理(四)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-15">2012-08-15</time>
+  <a href="http://wangkuiwu.github.com/2012/08/15/juc-executor04/" title="Java多线程系列--“JUC线程池”04之 线程池原理(三)">Java多线程系列--“JUC线程池”04之 线程池原理(三)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-15">2012-08-15</time>
+  <a href="http://wangkuiwu.github.com/2012/08/15/juc-executor03/" title="Java多线程系列--“JUC线程池”03之 线程池原理(二)">Java多线程系列--“JUC线程池”03之 线程池原理(二)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-15">2012-08-15</time>
+  <a href="http://wangkuiwu.github.com/2012/08/15/juc-executor02/" title="Java多线程系列--“JUC线程池”02之 线程池原理(一)">Java多线程系列--“JUC线程池”02之 线程池原理(一)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-15">2012-08-15</time>
+  <a href="http://wangkuiwu.github.com/2012/08/15/juc-executor01/" title="Java多线程系列--“JUC线程池”01之 线程池架构">Java多线程系列--“JUC线程池”01之 线程池架构</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col10/" title="Java多线程系列--“JUC集合”10之 ConcurrentHashMap">Java多线程系列--“JUC集合”10之 ConcurrentHashMap</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col09/" title="Java多线程系列--“JUC集合”09之 LinkedBlockingDeque">Java多线程系列--“JUC集合”09之 LinkedBlockingDeque</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col08/" title="Java多线程系列--“JUC集合”08之 LinkedBlockingQueue">Java多线程系列--“JUC集合”08之 LinkedBlockingQueue</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col07/" title="Java多线程系列--“JUC集合”07之 ArrayBlockingQueue">Java多线程系列--“JUC集合”07之 ArrayBlockingQueue</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col06/" title="Java多线程系列--“JUC集合”06之 ConcurrentSkipListSet">Java多线程系列--“JUC集合”06之 ConcurrentSkipListSet</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col05/" title="Java多线程系列--“JUC集合”05之 ConcurrentSkipListMap">Java多线程系列--“JUC集合”05之 ConcurrentSkipListMap</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col04/" title="Java多线程系列--“JUC集合”04之 ConcurrentHashMap">Java多线程系列--“JUC集合”04之 ConcurrentHashMap</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col03/" title="Java多线程系列--“JUC集合”03之 CopyOnWriteArraySet">Java多线程系列--“JUC集合”03之 CopyOnWriteArraySet</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col02/" title="Java多线程系列--“JUC集合”02之 CopyOnWriteArrayList">Java多线程系列--“JUC集合”02之 CopyOnWriteArrayList</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-14">2012-08-14</time>
+  <a href="http://wangkuiwu.github.com/2012/08/14/juc-col01/" title="Java多线程系列--“JUC集合”01之 框架">Java多线程系列--“JUC集合”01之 框架</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock11/" title="Java多线程系列--“JUC锁”11之 Semaphore信号量的原理和示例">Java多线程系列--“JUC锁”11之 Semaphore信号量的原理和示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock10/" title="Java多线程系列--“JUC锁”10之 CyclicBarrier原理和示例">Java多线程系列--“JUC锁”10之 CyclicBarrier原理和示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock09/" title="Java多线程系列--“JUC锁”09之 CountDownLatch原理和示例">Java多线程系列--“JUC锁”09之 CountDownLatch原理和示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock08/" title="Java多线程系列--“JUC锁”08之 共享锁和ReentrantReadWriteLock">Java多线程系列--“JUC锁”08之 共享锁和ReentrantReadWriteLock</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock07/" title="Java多线程系列--“JUC锁”07之 LockSupport">Java多线程系列--“JUC锁”07之 LockSupport</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock06/" title="Java多线程系列--“JUC锁”06之 Condition条件">Java多线程系列--“JUC锁”06之 Condition条件</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock05/" title="Java多线程系列--“JUC锁”05之 非公平锁">Java多线程系列--“JUC锁”05之 非公平锁</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock04/" title="Java多线程系列--“JUC锁”04之 公平锁(二)">Java多线程系列--“JUC锁”04之 公平锁(二)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock03/" title="Java多线程系列--“JUC锁”03之 公平锁(一)">Java多线程系列--“JUC锁”03之 公平锁(一)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock02/" title="Java多线程系列--“JUC锁”02之 互斥锁ReentrantLock">Java多线程系列--“JUC锁”02之 互斥锁ReentrantLock</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-13">2012-08-13</time>
+  <a href="http://wangkuiwu.github.com/2012/08/13/juc-lock01/" title="Java多线程系列--“JUC锁”01之 框架">Java多线程系列--“JUC锁”01之 框架</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-12">2012-08-12</time>
+  <a href="http://wangkuiwu.github.com/2012/08/12/juc-atomic05/" title="Java多线程系列--“JUC原子类”05之 AtomicLongFieldUpdater原子类">Java多线程系列--“JUC原子类”05之 AtomicLongFieldUpdater原子类</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-12">2012-08-12</time>
+  <a href="http://wangkuiwu.github.com/2012/08/12/juc-atomic04/" title="Java多线程系列--“JUC原子类”04之 AtomicReference原子类">Java多线程系列--“JUC原子类”04之 AtomicReference原子类</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-12">2012-08-12</time>
+  <a href="http://wangkuiwu.github.com/2012/08/12/juc-atomic03/" title="Java多线程系列--“JUC原子类”03之 AtomicLongArray原子类">Java多线程系列--“JUC原子类”03之 AtomicLongArray原子类</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-12">2012-08-12</time>
+  <a href="http://wangkuiwu.github.com/2012/08/12/juc-atomic02/" title="Java多线程系列--“JUC原子类”02之 AtomicLong原子类">Java多线程系列--“JUC原子类”02之 AtomicLong原子类</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-12">2012-08-12</time>
+  <a href="http://wangkuiwu.github.com/2012/08/12/juc-atomic01/" title="Java多线程系列--“JUC原子类”01之 框架">Java多线程系列--“JUC原子类”01之 框架</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-11">2012-08-11</time>
+  <a href="http://wangkuiwu.github.com/2012/08/11/threads-basic/" title="Java多线程系列--“基础篇”11之 生产消费者问题">Java多线程系列--“基础篇”11之 生产消费者问题</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-10">2012-08-10</time>
+  <a href="http://wangkuiwu.github.com/2012/08/10/threads-basic/" title="Java多线程系列--“基础篇”10之 线程优先级和守护线程">Java多线程系列--“基础篇”10之 线程优先级和守护线程</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-09">2012-08-09</time>
+  <a href="http://wangkuiwu.github.com/2012/08/09/threads-basic/" title="Java多线程系列--“基础篇”09之 interrupt()和线程终止方式">Java多线程系列--“基础篇”09之 interrupt()和线程终止方式</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-08">2012-08-08</time>
+  <a href="http://wangkuiwu.github.com/2012/08/08/threads-basic/" title="Java多线程系列--“基础篇”08之 join()">Java多线程系列--“基础篇”08之 join()</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-07">2012-08-07</time>
+  <a href="http://wangkuiwu.github.com/2012/08/07/threads-basic/" title="Java多线程系列--“基础篇”07之 线程休眠">Java多线程系列--“基础篇”07之 线程休眠</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-06">2012-08-06</time>
+  <a href="http://wangkuiwu.github.com/2012/08/06/threads-basic/" title="Java多线程系列--“基础篇”06之 线程让步">Java多线程系列--“基础篇”06之 线程让步</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-05">2012-08-05</time>
+  <a href="http://wangkuiwu.github.com/2012/08/05/threads-basic/" title="Java多线程系列--“基础篇”05之 线程等待与唤醒">Java多线程系列--“基础篇”05之 线程等待与唤醒</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-04">2012-08-04</time>
+  <a href="http://wangkuiwu.github.com/2012/08/04/threads-basic/" title="Java多线程系列--“基础篇”04之 synchronized关键字">Java多线程系列--“基础篇”04之 synchronized关键字</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-03">2012-08-03</time>
+  <a href="http://wangkuiwu.github.com/2012/08/03/threads-basic/" title="Java多线程系列--“基础篇”03之  Thread中start()和run()的区别">Java多线程系列--“基础篇”03之  Thread中start()和run()的区别</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-02">2012-08-02</time>
+  <a href="http://wangkuiwu.github.com/2012/08/02/threads-basic/" title="Java多线程系列--“基础篇”02之 常用的实现多线程的两种方式">Java多线程系列--“基础篇”02之 常用的实现多线程的两种方式</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-01">2012-08-01</time>
+  <a href="http://wangkuiwu.github.com/2012/08/01/threads-basic/" title="Java多线程系列--“基础篇”01之 基本概念">Java多线程系列--“基础篇”01之 基本概念</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-08-01">2012-08-01</time>
+  <a href="http://wangkuiwu.github.com/2012/08/01/threads-index/" title="Java多线程系列--目录">Java多线程系列--目录</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-07-01">2012-07-01</time>
+  <a href="http://wangkuiwu.github.com/2012/07/01/ebook-JavaMemoryMode/" title="《深入理解Java内存模型》读书总结">《深入理解Java内存模型》读书总结</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-26">2012-05-26</time>
+  <a href="http://wangkuiwu.github.com/2012/05/26/RandomAccessFile/" title="java io系列26之 RandomAccessFile详解">java io系列26之 RandomAccessFile详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-25">2012-05-25</time>
+  <a href="http://wangkuiwu.github.com/2012/05/25/PrintWriter/" title="java io系列25之 PrintWriter详解">java io系列25之 PrintWriter详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-24">2012-05-24</time>
+  <a href="http://wangkuiwu.github.com/2012/05/24/BufferedWriter/" title="java io系列24之 BufferedWriter详解">java io系列24之 BufferedWriter详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-23">2012-05-23</time>
+  <a href="http://wangkuiwu.github.com/2012/05/23/BufferedReader/" title="java io系列23之 BufferedReader详解">java io系列23之 BufferedReader详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-22">2012-05-22</time>
+  <a href="http://wangkuiwu.github.com/2012/05/22/FileReaderAndFileWriter/" title="java io系列22之 FileReader和FileWriter详解">java io系列22之 FileReader和FileWriter详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-21">2012-05-21</time>
+  <a href="http://wangkuiwu.github.com/2012/05/21/InputStreamReaderAndOutputStreamWriter/" title="java io系列21之 InputStreamReader和OutputStreamWriter详解">java io系列21之 InputStreamReader和OutputStreamWriter详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-20">2012-05-20</time>
+  <a href="http://wangkuiwu.github.com/2012/05/20/PipedReaderAndPipedWriter/" title="java io系列20之 PipedReader和PipedWriter详解">java io系列20之 PipedReader和PipedWriter详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-19">2012-05-19</time>
+  <a href="http://wangkuiwu.github.com/2012/05/19/CharArrayWriter/" title="java io系列19之 CharArrayWriter详解">java io系列19之 CharArrayWriter详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-18">2012-05-18</time>
+  <a href="http://wangkuiwu.github.com/2012/05/18/CharArrayReader/" title="java io系列18之 CharArrayReader详解">java io系列18之 CharArrayReader详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-17">2012-05-17</time>
+  <a href="http://wangkuiwu.github.com/2012/05/17/SystemOutPrintln/" title="java io系列17之 System.out.println详解">java io系列17之 System.out.println详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-16">2012-05-16</time>
+  <a href="http://wangkuiwu.github.com/2012/05/16/PrintStream/" title="java io系列16之 PrintStream详解">java io系列16之 PrintStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-15">2012-05-15</time>
+  <a href="http://wangkuiwu.github.com/2012/05/15/DataOutputStream/" title="java io系列15之 DataOutputStream详解">java io系列15之 DataOutputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-14">2012-05-14</time>
+  <a href="http://wangkuiwu.github.com/2012/05/14/DataInputStream/" title="java io系列14之 DataInputStream详解">java io系列14之 DataInputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-13">2012-05-13</time>
+  <a href="http://wangkuiwu.github.com/2012/05/13/BufferedOutputStream/" title="java io系列13之 BufferedOutputStream详解">java io系列13之 BufferedOutputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-12">2012-05-12</time>
+  <a href="http://wangkuiwu.github.com/2012/05/12/BufferedInputStream/" title="java io系列12之 BufferedInputStream详解">java io系列12之 BufferedInputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-11">2012-05-11</time>
+  <a href="http://wangkuiwu.github.com/2012/05/11/FilterOutputStream/" title="java io系列11之 FilterOutputStream详解">java io系列11之 FilterOutputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-10">2012-05-10</time>
+  <a href="http://wangkuiwu.github.com/2012/05/10/FilterInputStream/" title="java io系列10之 FilterInputStream详解">java io系列10之 FilterInputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-09">2012-05-09</time>
+  <a href="http://wangkuiwu.github.com/2012/05/09/FileDescriptor/" title="java io系列09之 FileDescriptor详解">java io系列09之 FileDescriptor详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-08">2012-05-08</time>
+  <a href="http://wangkuiwu.github.com/2012/05/08/File/" title="java io系列08之 File详解">java io系列08之 File详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-07">2012-05-07</time>
+  <a href="http://wangkuiwu.github.com/2012/05/07/FileInputStreamAndFileOutputStream/" title="java io系列07之 FileInputStream和FileOutputStream详解">java io系列07之 FileInputStream和FileOutputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-06">2012-05-06</time>
+  <a href="http://wangkuiwu.github.com/2012/05/06/SerializableAndExternalizable/" title="java io系列06之 序列化(Serializable和Externalizable)详解">java io系列06之 序列化(Serializable和Externalizable)详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-05">2012-05-05</time>
+  <a href="http://wangkuiwu.github.com/2012/05/05/ObjectInputStreamAndObjectOutputStream/" title="java io系列05之 ObjectInputStream和ObjectOutputStream详解">java io系列05之 ObjectInputStream和ObjectOutputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-04">2012-05-04</time>
+  <a href="http://wangkuiwu.github.com/2012/05/04/PipedOutputStreamAndPipedInputStream/" title="java io系列04之 管道(PipedOutputStream和PipedInputStream)详解">java io系列04之 管道(PipedOutputStream和PipedInputStream)详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-03">2012-05-03</time>
+  <a href="http://wangkuiwu.github.com/2012/05/03/ByteArrayOutputStream/" title="java io系列03之 ByteArrayOutputStream详解">java io系列03之 ByteArrayOutputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-02">2012-05-02</time>
+  <a href="http://wangkuiwu.github.com/2012/05/02/ByteArrayInputStream/" title="java io系列02之 ByteArrayInputStream详解">java io系列02之 ByteArrayInputStream详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-01">2012-05-01</time>
+  <a href="http://wangkuiwu.github.com/2012/05/01/io/" title="java io系列01之 IO框架">java io系列01之 IO框架</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-05-01">2012-05-01</time>
+  <a href="http://wangkuiwu.github.com/2012/05/01/index/" title="java io系列目录">java io系列目录</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-16">2012-04-16</time>
+  <a href="http://wangkuiwu.github.com/2012/04/16/exception/" title="Java异常(三) 《Java Puzzles》中关于异常的几个谜题">Java异常(三) 《Java Puzzles》中关于异常的几个谜题</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-15">2012-04-15</time>
+  <a href="http://wangkuiwu.github.com/2012/04/15/exception/" title="Java异常(二) 《Effective Java》中关于异常处理的几条建议">Java异常(二) 《Effective Java》中关于异常处理的几条建议</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-14">2012-04-14</time>
+  <a href="http://wangkuiwu.github.com/2012/04/14/exception/" title="Java异常(一) Java异常简介及其架构">Java异常(一) Java异常简介及其架构</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-13">2012-04-13</time>
+  <a href="http://wangkuiwu.github.com/2012/04/13/charsequence/" title="Java 字符串系列03 StringBuffer详解">Java 字符串系列03 StringBuffer详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-12">2012-04-12</time>
+  <a href="http://wangkuiwu.github.com/2012/04/12/charsequence/" title="Java 字符串系列02 StringBuilder详解">Java 字符串系列02 StringBuilder详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-11">2012-04-11</time>
+  <a href="http://wangkuiwu.github.com/2012/04/11/charsequence/" title="Java 字符串系列01 String详解, String和CharSequence区别, StringBuilder和StringBuffer的区别">Java 字符串系列01 String详解, String和CharSequence区别, StringBuilder和StringBuffer的区别</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-07">2012-04-07</time>
+  <a href="http://wangkuiwu.github.com/2012/04/07/time/" title="Java 时间相关内容07 TimeZone">Java 时间相关内容07 TimeZone</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-06">2012-04-06</time>
+  <a href="http://wangkuiwu.github.com/2012/04/06/time/" title="Java 时间相关内容06 Locale">Java 时间相关内容06 Locale</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-05">2012-04-05</time>
+  <a href="http://wangkuiwu.github.com/2012/04/05/time/" title="Java 时间相关内容05 SimpleDateFormat">Java 时间相关内容05 SimpleDateFormat</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-04">2012-04-04</time>
+  <a href="http://wangkuiwu.github.com/2012/04/04/time/" title="Java 时间相关内容04 DateFormat">Java 时间相关内容04 DateFormat</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-03">2012-04-03</time>
+  <a href="http://wangkuiwu.github.com/2012/04/03/time/" title="Java 时间相关内容03 Date">Java 时间相关内容03 Date</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-02">2012-04-02</time>
+  <a href="http://wangkuiwu.github.com/2012/04/02/time/" title="Java 时间相关内容02 万年历和自定义Calendar接口">Java 时间相关内容02 万年历和自定义Calendar接口</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-01">2012-04-01</time>
+  <a href="http://wangkuiwu.github.com/2012/04/01/time/" title="Java 时间相关内容01 Calendar">Java 时间相关内容01 Calendar</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-04-01">2012-04-01</time>
+  <a href="http://wangkuiwu.github.com/2012/04/01/time-index/" title="Java 时间相关内容的目录(Category)">Java 时间相关内容的目录(Category)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-03-04">2012-03-04</time>
+  <a href="http://wangkuiwu.github.com/2012/03/04/reflection/" title="Java 反射机制(包括组成、结构、示例说明等内容)">Java 反射机制(包括组成、结构、示例说明等内容)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-03-03">2012-03-03</time>
+  <a href="http://wangkuiwu.github.com/2012/03/03/annotation/" title="Java Annotation认知(包括框架图、详细介绍、示例说明)">Java Annotation认知(包括框架图、详细介绍、示例说明)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-03-02">2012-03-02</time>
+  <a href="http://wangkuiwu.github.com/2012/03/02/reference/" title="Java引用总结--StrongReference、SoftReference、WeakReference、PhantomReference">Java引用总结--StrongReference、SoftReference、WeakReference、PhantomReference</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-03-01">2012-03-01</time>
+  <a href="http://wangkuiwu.github.com/2012/03/01/random/" title="Java 随机数">Java 随机数</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-20">2012-02-20</time>
+  <a href="http://wangkuiwu.github.com/2012/02/20/hashcode-and-equals/" title="Java 集合系列扩展(二) hashCode()和equals()的若干问题解答">Java 集合系列扩展(二) hashCode()和equals()的若干问题解答</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-19">2012-02-19</time>
+  <a href="http://wangkuiwu.github.com/2012/02/19/comparable-comparator/" title="Java 集合系列扩展(一) Comparable和Comparator比较">Java 集合系列扩展(一) Comparable和Comparator比较</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-18">2012-02-18</time>
+  <a href="http://wangkuiwu.github.com/2012/02/18/collection-18-iterator_enumeration/" title="Java 集合系列18之 Iterator和Enumeration比较">Java 集合系列18之 Iterator和Enumeration比较</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-17">2012-02-17</time>
+  <a href="http://wangkuiwu.github.com/2012/02/17/collection-17-treeset/" title="Java 集合系列17之 TreeSet详细介绍(源码解析)和使用示例">Java 集合系列17之 TreeSet详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-16">2012-02-16</time>
+  <a href="http://wangkuiwu.github.com/2012/02/16/collection-16-hashset/" title="Java 集合系列16之 HashSet详细介绍(源码解析)和使用示例">Java 集合系列16之 HashSet详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-15">2012-02-15</time>
+  <a href="http://wangkuiwu.github.com/2012/02/15/collection-15-set/" title="Java 集合系列15之 Set架构">Java 集合系列15之 Set架构</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-14">2012-02-14</time>
+  <a href="http://wangkuiwu.github.com/2012/02/14/collection-14-mapsummary/" title="Java 集合系列14之 Map总结(HashMap, Hashtable, TreeMap, WeakHashMap等使用场景)">Java 集合系列14之 Map总结(HashMap, Hashtable, TreeMap, WeakHashMap等使用场景)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-13">2012-02-13</time>
+  <a href="http://wangkuiwu.github.com/2012/02/13/collection-13-weakhashmap/" title="Java 集合系列13之 WeakHashMap详细介绍(源码解析)和使用示例">Java 集合系列13之 WeakHashMap详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-12">2012-02-12</time>
+  <a href="http://wangkuiwu.github.com/2012/02/12/collection-12-treemap/" title="Java 集合系列12之 TreeMap详细介绍(源码解析)和使用示例">Java 集合系列12之 TreeMap详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-11">2012-02-11</time>
+  <a href="http://wangkuiwu.github.com/2012/02/11/collection-11-hashtable/" title="Java 集合系列11之 Hashtable详细介绍(源码解析)和使用示例">Java 集合系列11之 Hashtable详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-10">2012-02-10</time>
+  <a href="http://wangkuiwu.github.com/2012/02/10/collection-10-hashmap/" title="Java 集合系列10之 HashMap详细介绍(源码解析)和使用示例">Java 集合系列10之 HashMap详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-09">2012-02-09</time>
+  <a href="http://wangkuiwu.github.com/2012/02/09/collection-09-map/" title="Java 集合系列09之 Map架构">Java 集合系列09之 Map架构</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-08">2012-02-08</time>
+  <a href="http://wangkuiwu.github.com/2012/02/08/collection-08-List/" title="Java 集合系列08之 List总结(LinkedList, ArrayList等使用场景和性能分析)">Java 集合系列08之 List总结(LinkedList, ArrayList等使用场景和性能分析)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-07">2012-02-07</time>
+  <a href="http://wangkuiwu.github.com/2012/02/07/collection-07-stack/" title="Java 集合系列07之 Stack详细介绍(源码解析)和使用示例">Java 集合系列07之 Stack详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-06">2012-02-06</time>
+  <a href="http://wangkuiwu.github.com/2012/02/06/collection-06-vector/" title="Java 集合系列06之 Vector详细介绍(源码解析)和使用示例">Java 集合系列06之 Vector详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-05">2012-02-05</time>
+  <a href="http://wangkuiwu.github.com/2012/02/05/collection-05-linkedlist/" title="Java 集合系列05之 LinkedList详细介绍(源码解析)和使用示例">Java 集合系列05之 LinkedList详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-04">2012-02-04</time>
+  <a href="http://wangkuiwu.github.com/2012/02/04/collection-04-fail-fast/" title="Java 集合系列04之 fail-fast总结(通过ArrayList来说明fail-fast的原理、解决办法)">Java 集合系列04之 fail-fast总结(通过ArrayList来说明fail-fast的原理、解决办法)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-03">2012-02-03</time>
+  <a href="http://wangkuiwu.github.com/2012/02/03/collection-03-arraylist/" title="Java 集合系列03之 ArrayList详细介绍(源码解析)和使用示例">Java 集合系列03之 ArrayList详细介绍(源码解析)和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-02">2012-02-02</time>
+  <a href="http://wangkuiwu.github.com/2012/02/02/collection-02-framework/" title="Java 集合系列02之 Collection架构">Java 集合系列02之 Collection架构</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-01">2012-02-01</time>
+  <a href="http://wangkuiwu.github.com/2012/02/01/collection-01-summary/" title="Java 集合系列01之 总体框架">Java 集合系列01之 总体框架</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-02-01">2012-02-01</time>
+  <a href="http://wangkuiwu.github.com/2012/02/01/collection-00-index/" title="Java 集合系列目录(Category)">Java 集合系列目录(Category)</a>
+  </li>
+
+
+  <li class="listing-seperator" id="pattern">pattern</li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-29">2012-10-29</time>
+  <a href="http://wangkuiwu.github.com/2012/10/29/design_pattern/" title="设计模式19之 迭代器(Iterator)模式(行为模式)">设计模式19之 迭代器(Iterator)模式(行为模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-28">2012-10-28</time>
+  <a href="http://wangkuiwu.github.com/2012/10/28/design_pattern/" title="设计模式18之 观察者(Observer)模式(行为模式)">设计模式18之 观察者(Observer)模式(行为模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-27">2012-10-27</time>
+  <a href="http://wangkuiwu.github.com/2012/10/27/design_pattern/" title="设计模式17之 模板方法(Template Method)模式(行为模式)">设计模式17之 模板方法(Template Method)模式(行为模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-26">2012-10-26</time>
+  <a href="http://wangkuiwu.github.com/2012/10/26/design_pattern/" title="设计模式16之 策略(Strategy)模式(行为模式)">设计模式16之 策略(Strategy)模式(行为模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-25">2012-10-25</time>
+  <a href="http://wangkuiwu.github.com/2012/10/25/design_pattern/" title="设计模式15之 不变(Immutable)模式(行为模式)">设计模式15之 不变(Immutable)模式(行为模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-24">2012-10-24</time>
+  <a href="http://wangkuiwu.github.com/2012/10/24/design_pattern/" title="设计模式14之 桥梁(Bridge)模式(结构模式)">设计模式14之 桥梁(Bridge)模式(结构模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-23">2012-10-23</time>
+  <a href="http://wangkuiwu.github.com/2012/10/23/design_pattern/" title="设计模式13之 门面(Facade)模式(结构模式)">设计模式13之 门面(Facade)模式(结构模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-22">2012-10-22</time>
+  <a href="http://wangkuiwu.github.com/2012/10/22/design_pattern/" title="设计模式12之 享元(Flyweight)模式(结构模式)">设计模式12之 享元(Flyweight)模式(结构模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-21">2012-10-21</time>
+  <a href="http://wangkuiwu.github.com/2012/10/21/design_pattern/" title="设计模式11之 代理(Proxy)模式(结构模式)">设计模式11之 代理(Proxy)模式(结构模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-20">2012-10-20</time>
+  <a href="http://wangkuiwu.github.com/2012/10/20/design_pattern/" title="设计模式10之 装饰(Decorator)模式(结构模式)">设计模式10之 装饰(Decorator)模式(结构模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-19">2012-10-19</time>
+  <a href="http://wangkuiwu.github.com/2012/10/19/design_pattern/" title="设计模式09之 合成(Composite)模式(结构模式)">设计模式09之 合成(Composite)模式(结构模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-18">2012-10-18</time>
+  <a href="http://wangkuiwu.github.com/2012/10/18/design_pattern/" title="设计模式08之 适配器(Adapter)模式(结构模式)">设计模式08之 适配器(Adapter)模式(结构模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-17">2012-10-17</time>
+  <a href="http://wangkuiwu.github.com/2012/10/17/design_pattern/" title="设计模式07之 原型模式(创建模式)">设计模式07之 原型模式(创建模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-16">2012-10-16</time>
+  <a href="http://wangkuiwu.github.com/2012/10/16/design_pattern/" title="设计模式06之 建造模式(创建模式)">设计模式06之 建造模式(创建模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-15">2012-10-15</time>
+  <a href="http://wangkuiwu.github.com/2012/10/15/design_pattern/" title="设计模式05之 多例模式(创建模式)">设计模式05之 多例模式(创建模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-14">2012-10-14</time>
+  <a href="http://wangkuiwu.github.com/2012/10/14/design_pattern/" title="设计模式04之 单例模式(创建模式)">设计模式04之 单例模式(创建模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-13">2012-10-13</time>
+  <a href="http://wangkuiwu.github.com/2012/10/13/design_pattern/" title="设计模式03之 抽象工厂模式(创建模式)">设计模式03之 抽象工厂模式(创建模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-12">2012-10-12</time>
+  <a href="http://wangkuiwu.github.com/2012/10/12/design_pattern/" title="设计模式02之 工厂方法模式(创建模式)">设计模式02之 工厂方法模式(创建模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-11">2012-10-11</time>
+  <a href="http://wangkuiwu.github.com/2012/10/11/design_pattern/" title="设计模式01之 简单工厂模式(创建模式)">设计模式01之 简单工厂模式(创建模式)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-05">2012-10-05</time>
+  <a href="http://wangkuiwu.github.com/2012/10/05/uml/" title="UML系列05之 基本流程图">UML系列05之 基本流程图</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-04">2012-10-04</time>
+  <a href="http://wangkuiwu.github.com/2012/10/04/uml/" title="UML系列04之  UML时序图">UML系列04之  UML时序图</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-03">2012-10-03</time>
+  <a href="http://wangkuiwu.github.com/2012/10/03/uml/" title="UML系列03之  UML类图(二)">UML系列03之  UML类图(二)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-02">2012-10-02</time>
+  <a href="http://wangkuiwu.github.com/2012/10/02/uml/" title="UML系列02之  UML类图(一)">UML系列02之  UML类图(一)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2012-10-01">2012-10-01</time>
+  <a href="http://wangkuiwu.github.com/2012/10/01/uml/" title="UML系列01之  UML和绘图工具Visio介绍">UML系列01之  UML和绘图工具Visio介绍</a>
+  </li>
+
+
+  <li class="listing-seperator" id="datastructure">datastructure</li>
+
+  <li class="listing-item">
+  <time datetime="2013-05-10">2013-05-10</time>
+  <a href="http://wangkuiwu.github.com/2013/05/10/radix-sort/" title="基数排序(C/C++/Java)">基数排序(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-05-09">2013-05-09</time>
+  <a href="http://wangkuiwu.github.com/2013/05/09/bucket-sort/" title="桶排序(C/C++/Java)">桶排序(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-05-08">2013-05-08</time>
+  <a href="http://wangkuiwu.github.com/2013/05/08/merge-sort/" title="归并排序(C/C++/Java)">归并排序(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-05-06">2013-05-06</time>
+  <a href="http://wangkuiwu.github.com/2013/05/06/heap-sort/" title="堆排序(C/C++/Java)">堆排序(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-05-05">2013-05-05</time>
+  <a href="http://wangkuiwu.github.com/2013/05/05/select-sort/" title="选择排序(C/C++/Java)">选择排序(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-05-04">2013-05-04</time>
+  <a href="http://wangkuiwu.github.com/2013/05/04/shell-sort/" title="希尔排序(C/C++/Java)">希尔排序(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-05-03">2013-05-03</time>
+  <a href="http://wangkuiwu.github.com/2013/05/03/insert-sort/" title="直接插入排序(C/C++/Java)">直接插入排序(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-05-02">2013-05-02</time>
+  <a href="http://wangkuiwu.github.com/2013/05/02/quick-sort/" title="快速排序(C/C++/Java)">快速排序(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-05-01">2013-05-01</time>
+  <a href="http://wangkuiwu.github.com/2013/05/01/bubble-sort/" title="冒泡排序(C/C++/Java)">冒泡排序(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-15">2013-04-15</time>
+  <a href="http://wangkuiwu.github.com/2013/04/15/floyd-java/" title="Floyd算法(三)之 Java详解">Floyd算法(三)之 Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-15">2013-04-15</time>
+  <a href="http://wangkuiwu.github.com/2013/04/15/floyd-cplus/" title="Floyd算法(二)之 C++详解">Floyd算法(二)之 C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-15">2013-04-15</time>
+  <a href="http://wangkuiwu.github.com/2013/04/15/floyd-c/" title="Floyd算法(一)之 C语言详解">Floyd算法(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-14">2013-04-14</time>
+  <a href="http://wangkuiwu.github.com/2013/04/14/dijkstra-java/" title="Dijkstra算法(三)之 Java详解">Dijkstra算法(三)之 Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-14">2013-04-14</time>
+  <a href="http://wangkuiwu.github.com/2013/04/14/dijkstra-cplus/" title="Dijkstra算法(二)之 C++详解">Dijkstra算法(二)之 C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-14">2013-04-14</time>
+  <a href="http://wangkuiwu.github.com/2013/04/14/dijkstra-c/" title="Dijkstra算法(一)之 C语言详解">Dijkstra算法(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-13">2013-04-13</time>
+  <a href="http://wangkuiwu.github.com/2013/04/13/prim-java/" title="Prim算法(三)之 Java详解">Prim算法(三)之 Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-13">2013-04-13</time>
+  <a href="http://wangkuiwu.github.com/2013/04/13/prim-cplus/" title="Prim算法(二)之 C++详解">Prim算法(二)之 C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-13">2013-04-13</time>
+  <a href="http://wangkuiwu.github.com/2013/04/13/prim-c/" title="Prim算法(一)之 C语言详解">Prim算法(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-12">2013-04-12</time>
+  <a href="http://wangkuiwu.github.com/2013/04/12/kruskal-java/" title="Kruskal算法(三)之 Java详解">Kruskal算法(三)之 Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-12">2013-04-12</time>
+  <a href="http://wangkuiwu.github.com/2013/04/12/kruskal-cplus/" title="Kruskal算法(二)之 C++详解">Kruskal算法(二)之 C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-12">2013-04-12</time>
+  <a href="http://wangkuiwu.github.com/2013/04/12/kruskal-c/" title="Kruskal算法(一)之 C语言详解">Kruskal算法(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-11">2013-04-11</time>
+  <a href="http://wangkuiwu.github.com/2013/04/11/topsort-java/" title="图的拓扑排序(三)之 Java详解">图的拓扑排序(三)之 Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-11">2013-04-11</time>
+  <a href="http://wangkuiwu.github.com/2013/04/11/topsort-cplus/" title="图的拓扑排序(二)之 C++详解">图的拓扑排序(二)之 C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-11">2013-04-11</time>
+  <a href="http://wangkuiwu.github.com/2013/04/11/topsort-c/" title="图的拓扑排序(一)之 C语言详解">图的拓扑排序(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-10">2013-04-10</time>
+  <a href="http://wangkuiwu.github.com/2013/04/10/iterator/" title="图的遍历">图的遍历</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-09">2013-04-09</time>
+  <a href="http://wangkuiwu.github.com/2013/04/09/basic-list-dg-java/" title="邻接表有向图(三) 之Java详解">邻接表有向图(三) 之Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-09">2013-04-09</time>
+  <a href="http://wangkuiwu.github.com/2013/04/09/basic-list-dg-cplus/" title="邻接表有向图(二) 之C++详解">邻接表有向图(二) 之C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-09">2013-04-09</time>
+  <a href="http://wangkuiwu.github.com/2013/04/09/basic-list-dg-c/" title="邻接表有向图(一) 之C语言详解">邻接表有向图(一) 之C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-08">2013-04-08</time>
+  <a href="http://wangkuiwu.github.com/2013/04/08/basic-matrix-dg-java/" title="邻接矩阵有向图(三) 之Java详解">邻接矩阵有向图(三) 之Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-08">2013-04-08</time>
+  <a href="http://wangkuiwu.github.com/2013/04/08/basic-matrix-dg-cplus/" title="邻接矩阵有向图(二) 之C++详解">邻接矩阵有向图(二) 之C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-08">2013-04-08</time>
+  <a href="http://wangkuiwu.github.com/2013/04/08/basic-matrix-dg-c/" title="邻接矩阵有向图(一) 之C语言详解">邻接矩阵有向图(一) 之C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-07">2013-04-07</time>
+  <a href="http://wangkuiwu.github.com/2013/04/07/basic-list-udg-java/" title="邻接表无向图(三) 之Java详解">邻接表无向图(三) 之Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-07">2013-04-07</time>
+  <a href="http://wangkuiwu.github.com/2013/04/07/basic-list-udg-cplus/" title="邻接表无向图(二) 之C++详解">邻接表无向图(二) 之C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-07">2013-04-07</time>
+  <a href="http://wangkuiwu.github.com/2013/04/07/basic-list-udg-c/" title="邻接表无向图(一) 之C语言详解">邻接表无向图(一) 之C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-06">2013-04-06</time>
+  <a href="http://wangkuiwu.github.com/2013/04/06/basic-matrix-udg-java/" title="邻接矩阵无向图(三) 之Java详解">邻接矩阵无向图(三) 之Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-06">2013-04-06</time>
+  <a href="http://wangkuiwu.github.com/2013/04/06/basic-matrix-udg-cplus/" title="邻接矩阵无向图(二) 之C++详解">邻接矩阵无向图(二) 之C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-06">2013-04-06</time>
+  <a href="http://wangkuiwu.github.com/2013/04/06/basic-matrix-udg-c/" title="邻接矩阵无向图(一) 之C语言详解">邻接矩阵无向图(一) 之C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-04-05">2013-04-05</time>
+  <a href="http://wangkuiwu.github.com/2013/04/05/graph-thesis/" title="图的理论基础">图的理论基础</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-05">2013-03-05</time>
+  <a href="http://wangkuiwu.github.com/2013/03/05/fabonacci-java/" title="斐波那契堆(三)之 Java语言详解">斐波那契堆(三)之 Java语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-05">2013-03-05</time>
+  <a href="http://wangkuiwu.github.com/2013/03/05/fabonacci-cpp/" title="斐波那契堆(二)之 C++语言详解">斐波那契堆(二)之 C++语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-05">2013-03-05</time>
+  <a href="http://wangkuiwu.github.com/2013/03/05/fabonacci-c/" title="斐波那契堆(一)之 C语言详解">斐波那契堆(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-04">2013-03-04</time>
+  <a href="http://wangkuiwu.github.com/2013/03/04/binomial-java/" title="二项堆(三)之 Java语言详解">二项堆(三)之 Java语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-04">2013-03-04</time>
+  <a href="http://wangkuiwu.github.com/2013/03/04/binomial-cpp/" title="二项堆(二)之 C++语言详解">二项堆(二)之 C++语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-04">2013-03-04</time>
+  <a href="http://wangkuiwu.github.com/2013/03/04/binomial-c/" title="二项堆(一)之 C语言详解">二项堆(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-03">2013-03-03</time>
+  <a href="http://wangkuiwu.github.com/2013/03/03/skewheap-java/" title="斜堆(三)之 Java详解">斜堆(三)之 Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-03">2013-03-03</time>
+  <a href="http://wangkuiwu.github.com/2013/03/03/skewheap-cplus/" title="斜堆(二)之 C++详解">斜堆(二)之 C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-03">2013-03-03</time>
+  <a href="http://wangkuiwu.github.com/2013/03/03/skewheap-c/" title="斜堆(一)之 C语言详解">斜堆(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-02">2013-03-02</time>
+  <a href="http://wangkuiwu.github.com/2013/03/02/leftist-java/" title="左倾堆(三)之 Java详解">左倾堆(三)之 Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-02">2013-03-02</time>
+  <a href="http://wangkuiwu.github.com/2013/03/02/leftist-cplus/" title="左倾堆(二)之 C++详解">左倾堆(二)之 C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-02">2013-03-02</time>
+  <a href="http://wangkuiwu.github.com/2013/03/02/leftist-c/" title="左倾堆(一)之 C语言详解">左倾堆(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-01">2013-03-01</time>
+  <a href="http://wangkuiwu.github.com/2013/03/01/binary-heap-java/" title="二叉堆(三)之 Java详解">二叉堆(三)之 Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-01">2013-03-01</time>
+  <a href="http://wangkuiwu.github.com/2013/03/01/binary-heap-cplus/" title="二叉堆(二)之 C++详解">二叉堆(二)之 C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-03-01">2013-03-01</time>
+  <a href="http://wangkuiwu.github.com/2013/03/01/binary-heap-c/" title="二叉堆(一)之 C语言详解">二叉堆(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-05">2013-02-05</time>
+  <a href="http://wangkuiwu.github.com/2013/02/05/rbtree06/" title="红黑树(六)之 参考资料">红黑树(六)之 参考资料</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-05">2013-02-05</time>
+  <a href="http://wangkuiwu.github.com/2013/02/05/rbtree05/" title="红黑树(五)之 Java的实现">红黑树(五)之 Java的实现</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-05">2013-02-05</time>
+  <a href="http://wangkuiwu.github.com/2013/02/05/rbtree04/" title="红黑树(四)之 C++的实现">红黑树(四)之 C++的实现</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-05">2013-02-05</time>
+  <a href="http://wangkuiwu.github.com/2013/02/05/rbtree03/" title="红黑树(三)之 Linux内核中红黑树的经典实现">红黑树(三)之 Linux内核中红黑树的经典实现</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-05">2013-02-05</time>
+  <a href="http://wangkuiwu.github.com/2013/02/05/rbtree02/" title="红黑树(二)之 C语言的实现">红黑树(二)之 C语言的实现</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-05">2013-02-05</time>
+  <a href="http://wangkuiwu.github.com/2013/02/05/rbtree01/" title="红黑树(一)之 原理和算法详细介绍">红黑树(一)之 原理和算法详细介绍</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-04">2013-02-04</time>
+  <a href="http://wangkuiwu.github.com/2013/02/04/huffman-java/" title="哈夫曼树(三)之 Java详解">哈夫曼树(三)之 Java详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-04">2013-02-04</time>
+  <a href="http://wangkuiwu.github.com/2013/02/04/huffman-cpp/" title="哈夫曼树(二)之 C++详解">哈夫曼树(二)之 C++详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-04">2013-02-04</time>
+  <a href="http://wangkuiwu.github.com/2013/02/04/huffman-c/" title="哈夫曼树(一)之 C语言详解">哈夫曼树(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-03">2013-02-03</time>
+  <a href="http://wangkuiwu.github.com/2013/02/03/splaytree-java/" title="伸展树(三)之 Java语言详解">伸展树(三)之 Java语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-03">2013-02-03</time>
+  <a href="http://wangkuiwu.github.com/2013/02/03/splaytree-cpp/" title="伸展树(二)之 C++语言详解">伸展树(二)之 C++语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-03">2013-02-03</time>
+  <a href="http://wangkuiwu.github.com/2013/02/03/splaytree-c/" title="伸展树(一)之 C语言详解">伸展树(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-02">2013-02-02</time>
+  <a href="http://wangkuiwu.github.com/2013/02/02/avltree-java/" title="AVL树(三)之 Java语言详解">AVL树(三)之 Java语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-02">2013-02-02</time>
+  <a href="http://wangkuiwu.github.com/2013/02/02/avltree-cpp/" title="AVL树(二)之 C++语言详解">AVL树(二)之 C++语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-02">2013-02-02</time>
+  <a href="http://wangkuiwu.github.com/2013/02/02/avltree-c/" title="AVL树(一)之 C语言详解">AVL树(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-01">2013-02-01</time>
+  <a href="http://wangkuiwu.github.com/2013/02/01/bstree-java/" title="二叉查找树(三)之 Java语言详解">二叉查找树(三)之 Java语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-01">2013-02-01</time>
+  <a href="http://wangkuiwu.github.com/2013/02/01/bstree-cpp/" title="二叉查找树(二)之 C++语言详解">二叉查找树(二)之 C++语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-02-01">2013-02-01</time>
+  <a href="http://wangkuiwu.github.com/2013/02/01/bstree-c/" title="二叉查找树(一)之 C语言详解">二叉查找树(一)之 C语言详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-01-03">2013-01-03</time>
+  <a href="http://wangkuiwu.github.com/2013/01/03/list/" title="队列的图解和实现(C/C++/Java)">队列的图解和实现(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-01-02">2013-01-02</time>
+  <a href="http://wangkuiwu.github.com/2013/01/02/stack/" title="栈的图解和实现(C/C++/Java)">栈的图解和实现(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-01-01">2013-01-01</time>
+  <a href="http://wangkuiwu.github.com/2013/01/01/dlink02/" title="Linux内核中双向链表的经典实现">Linux内核中双向链表的经典实现</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-01-01">2013-01-01</time>
+  <a href="http://wangkuiwu.github.com/2013/01/01/dlink/" title="线性表--数组、单链表、双链表(C/C++/Java)">线性表--数组、单链表、双链表(C/C++/Java)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2013-01-01">2013-01-01</time>
+  <a href="http://wangkuiwu.github.com/2013/01/01/datastruct-index/" title="数据结构与算法系列 目录(Category)">数据结构与算法系列 目录(Category)</a>
+  </li>
+
+
+  <li class="listing-seperator" id="android">android</li>
+
+  <li class="listing-item">
+  <time datetime="2100-01-01">2100-01-01</time>
+  <a href="http://wangkuiwu.github.com/2100/01/01/index/" title="博客目录(持续更新中...)">博客目录(持续更新中...)</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-01-05">2015-01-05</time>
+  <a href="http://wangkuiwu.github.com/2015/01/05/TouchEvent-Sample-05-ViewGroup/" title="Android 触摸事件机制(五) 触摸事件示例5--ViewGroup没拦截但是却消费了触摸事件">Android 触摸事件机制(五) 触摸事件示例5--ViewGroup没拦截但是却消费了触摸事件</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-01-05">2015-01-05</time>
+  <a href="http://wangkuiwu.github.com/2015/01/05/TouchEvent-Sample-04-ViewGroup/" title="Android 触摸事件机制(五) 触摸事件示例4--ViewGroup拦截并消费触摸事件">Android 触摸事件机制(五) 触摸事件示例4--ViewGroup拦截并消费触摸事件</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-01-05">2015-01-05</time>
+  <a href="http://wangkuiwu.github.com/2015/01/05/TouchEvent-Sample-03-ViewGroup/" title="Android 触摸事件机制(五) 触摸事件示例3--ViewGroup拦截但不消费触摸事件">Android 触摸事件机制(五) 触摸事件示例3--ViewGroup拦截但不消费触摸事件</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-01-05">2015-01-05</time>
+  <a href="http://wangkuiwu.github.com/2015/01/05/TouchEvent-Sample-02-View/" title="Android 触摸事件机制(五) 触摸事件示例2--View接受触摸事件">Android 触摸事件机制(五) 触摸事件示例2--View接受触摸事件</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-01-05">2015-01-05</time>
+  <a href="http://wangkuiwu.github.com/2015/01/05/TouchEvent-Sample-01-default/" title="Android 触摸事件机制(五) 触摸事件示例1--默认处理方式">Android 触摸事件机制(五) 触摸事件示例1--默认处理方式</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-01-04">2015-01-04</time>
+  <a href="http://wangkuiwu.github.com/2015/01/04/TouchEvent-ViewGroup/" title="Android 触摸事件机制(四) ViewGroup中触摸事件详解">Android 触摸事件机制(四) ViewGroup中触摸事件详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-01-03">2015-01-03</time>
+  <a href="http://wangkuiwu.github.com/2015/01/03/TouchEvent-View/" title="Android 触摸事件机制(三) View中触摸事件详解">Android 触摸事件机制(三) View中触摸事件详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-01-02">2015-01-02</time>
+  <a href="http://wangkuiwu.github.com/2015/01/02/TouchEvent-Activity/" title="Android 触摸事件机制(二) Activity中触摸事件详解">Android 触摸事件机制(二) Activity中触摸事件详解</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-01-01">2015-01-01</time>
+  <a href="http://wangkuiwu.github.com/2015/01/01/TouchEvent-Introduce/" title="Android 触摸事件机制(一) 简介">Android 触摸事件机制(一) 简介</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-08">2014-09-08</time>
+  <a href="http://wangkuiwu.github.com/2014/09/08/Binder-Java/" title="Android Binder机制(十二) Binder机制的Java调用流程">Android Binder机制(十二) Binder机制的Java调用流程</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-07">2014-09-07</time>
+  <a href="http://wangkuiwu.github.com/2014/09/07/BinderCommunication-GetService03/" title="Android Binder机制(十一) getService详解03之 请求的反馈">Android Binder机制(十一) getService详解03之 请求的反馈</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-07">2014-09-07</time>
+  <a href="http://wangkuiwu.github.com/2014/09/07/BinderCommunication-GetService02/" title="Android Binder机制(十) getService详解02之 请求的处理">Android Binder机制(十) getService详解02之 请求的处理</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-07">2014-09-07</time>
+  <a href="http://wangkuiwu.github.com/2014/09/07/BinderCommunication-GetService01/" title="Android Binder机制(九) getService详解01之 请求的发送">Android Binder机制(九) getService详解01之 请求的发送</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-06">2014-09-06</time>
+  <a href="http://wangkuiwu.github.com/2014/09/06/BinderCommunication-ThreadPool/" title="Android Binder机制(八) MediaPlayerService服务的消息循环">Android Binder机制(八) MediaPlayerService服务的消息循环</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-05">2014-09-05</time>
+  <a href="http://wangkuiwu.github.com/2014/09/05/BinderCommunication-AddService03/" title="Android Binder机制(七) addService详解03之 请求的反馈">Android Binder机制(七) addService详解03之 请求的反馈</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-05">2014-09-05</time>
+  <a href="http://wangkuiwu.github.com/2014/09/05/BinderCommunication-AddService02/" title="Android Binder机制(六) addService详解02之 请求的处理">Android Binder机制(六) addService详解02之 请求的处理</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-05">2014-09-05</time>
+  <a href="http://wangkuiwu.github.com/2014/09/05/BinderCommunication-AddService01/" title="Android Binder机制(五) addService详解01之 请求的发送">Android Binder机制(五) addService详解01之 请求的发送</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-04">2014-09-04</time>
+  <a href="http://wangkuiwu.github.com/2014/09/04/Binder-defaultServiceManager/" title="Android Binder机制(四) defaultServiceManager()的实现">Android Binder机制(四) defaultServiceManager()的实现</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-03">2014-09-03</time>
+  <a href="http://wangkuiwu.github.com/2014/09/03/Binder-ServiceManager-Daemon/" title="Android Binder机制(三) ServiceManager守护进程">Android Binder机制(三) ServiceManager守护进程</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-02">2014-09-02</time>
+  <a href="http://wangkuiwu.github.com/2014/09/02/Binder-Datastruct/" title="Android Binder机制(二) Binder中的数据结构">Android Binder机制(二) Binder中的数据结构</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-09-01">2014-09-01</time>
+  <a href="http://wangkuiwu.github.com/2014/09/01/Binder-Introduce/" title="Android Binder机制(一) Binder的设计和框架">Android Binder机制(一) Binder的设计和框架</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-08-26">2014-08-26</time>
+  <a href="http://wangkuiwu.github.com/2014/08/26/MessageQueue/" title="Android消息机制架构和源码解析">Android消息机制架构和源码解析</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-26">2014-07-26</time>
+  <a href="http://wangkuiwu.github.com/2014/07/26/DrawableAnimation-BasicUsage/" title="Android 之Animation动画(七)之 Drawable Animation">Android 之Animation动画(七)之 Drawable Animation</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-25">2014-07-25</time>
+  <a href="http://wangkuiwu.github.com/2014/07/25/ViewAnimation-BasicUsage/" title="Android 之Animation动画(六)之 View Animation">Android 之Animation动画(六)之 View Animation</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-24">2014-07-24</time>
+  <a href="http://wangkuiwu.github.com/2014/07/24/PropertyAnimation-Layout/" title="Android 之Animation动画(五)之 Property Animation的布局动画">Android 之Animation动画(五)之 Property Animation的布局动画</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-24">2014-07-24</time>
+  <a href="http://wangkuiwu.github.com/2014/07/24/PropertyAnimation-MultiPropChange/" title="Android 之Animation动画(四)之 Property Animation的多属性变化">Android 之Animation动画(四)之 Property Animation的多属性变化</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-24">2014-07-24</time>
+  <a href="http://wangkuiwu.github.com/2014/07/24/PropertyAnimation-XmlUsage/" title="Android 之Animation动画(三)之 Property Animation的XML属性和使用示例">Android 之Animation动画(三)之 Property Animation的XML属性和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-24">2014-07-24</time>
+  <a href="http://wangkuiwu.github.com/2014/07/24/PropertyAnimation-BasicUsage/" title="Android 之Animation动画(二)之 Property Animation的基本介绍和使用示例">Android 之Animation动画(二)之 Property Animation的基本介绍和使用示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-24">2014-07-24</time>
+  <a href="http://wangkuiwu.github.com/2014/07/24/Animation/" title="Android 之Animation动画(一)之 Animation介绍">Android 之Animation动画(一)之 Animation介绍</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-06">2014-07-06</time>
+  <a href="http://wangkuiwu.github.com/2014/07/06/ContentProvider-Permission/" title="Android 之ContentProvider(三)之 Permission权限设置">Android 之ContentProvider(三)之 Permission权限设置</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-06">2014-07-06</time>
+  <a href="http://wangkuiwu.github.com/2014/07/06/ContentProvider-Usage/" title="Android 之ContentProvider(二)之 ContentProvider基本用法">Android 之ContentProvider(二)之 ContentProvider基本用法</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-06">2014-07-06</time>
+  <a href="http://wangkuiwu.github.com/2014/07/06/ContentProvider-Uri/" title="Android 之ContentProvider(一)之 Uri介绍">Android 之ContentProvider(一)之 Uri介绍</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-26">2014-06-26</time>
+  <a href="http://wangkuiwu.github.com/2014/06/26/OtherModeAttrs/" title="Android 之Activity启动模式(三)之 启动模式的其它属性">Android 之Activity启动模式(三)之 启动模式的其它属性</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-26">2014-06-26</time>
+  <a href="http://wangkuiwu.github.com/2014/06/26/IntentFlag/" title="Android 之Activity启动模式(二)之 Intent的Flag属性">Android 之Activity启动模式(二)之 Intent的Flag属性</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-26">2014-06-26</time>
+  <a href="http://wangkuiwu.github.com/2014/06/26/LaunchMode/" title="Android 之Activity启动模式(一)之 lauchMode">Android 之Activity启动模式(一)之 lauchMode</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-25">2014-06-25</time>
+  <a href="http://wangkuiwu.github.com/2014/06/25/Loader/" title="Android之Loader介绍">Android之Loader介绍</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-25">2014-06-25</time>
+  <a href="http://wangkuiwu.github.com/2014/06/25/AsyncTask/" title="Android之AsyncTask介绍">Android之AsyncTask介绍</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-23">2014-06-23</time>
+  <a href="http://wangkuiwu.github.com/2014/06/23/DialogFragment/" title="Android组件--Fragment(五)之 DialogFragment">Android组件--Fragment(五)之 DialogFragment</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-23">2014-06-23</time>
+  <a href="http://wangkuiwu.github.com/2014/06/23/SelfDefine-ListPreference/" title="Android组件--Fragment(三)之 自定义ListPreference">Android组件--Fragment(三)之 自定义ListPreference</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-23">2014-06-23</time>
+  <a href="http://wangkuiwu.github.com/2014/06/23/ListFragment/" title="Android组件--Fragment(四)之 ListFragment">Android组件--Fragment(四)之 ListFragment</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-23">2014-06-23</time>
+  <a href="http://wangkuiwu.github.com/2014/06/23/PreferenceFragment/" title="Android组件--Fragment(二)之 PreferenceFragment">Android组件--Fragment(二)之 PreferenceFragment</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-23">2014-06-23</time>
+  <a href="http://wangkuiwu.github.com/2014/06/23/Fragment/" title="Android组件--Fragment(一)之 基础知识">Android组件--Fragment(一)之 基础知识</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-21">2014-06-21</time>
+  <a href="http://wangkuiwu.github.com/2014/06/21/CommonIntents/" title="Android API指南(二)Intent之 常用Intent">Android API指南(二)Intent之 常用Intent</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-20">2014-06-20</time>
+  <a href="http://wangkuiwu.github.com/2014/06/20/View-layout/" title="Android API指南(二)自定义控件04之 位置说明">Android API指南(二)自定义控件04之 位置说明</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-20">2014-06-20</time>
+  <a href="http://wangkuiwu.github.com/2014/06/20/View-OnLayout/" title="Android API指南(二)自定义控件03之 onLayout">Android API指南(二)自定义控件03之 onLayout</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-20">2014-06-20</time>
+  <a href="http://wangkuiwu.github.com/2014/06/20/View-OnMeasure/" title="Android API指南(二)自定义控件02之 onMeasure">Android API指南(二)自定义控件02之 onMeasure</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-20">2014-06-20</time>
+  <a href="http://wangkuiwu.github.com/2014/06/20/View/" title="Android API指南(二)自定义控件01之 简单示例">Android API指南(二)自定义控件01之 简单示例</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-17">2014-06-17</time>
+  <a href="http://wangkuiwu.github.com/2014/06/17/Search/" title="Android API指南(二)Search篇">Android API指南(二)Search篇</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-16">2014-06-16</time>
+  <a href="http://wangkuiwu.github.com/2014/06/16/StylesAndThemes/" title="Android API指南(二)Styles和Themes篇">Android API指南(二)Styles和Themes篇</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-15">2014-06-15</time>
+  <a href="http://wangkuiwu.github.com/2014/06/15/Dialog/" title="Android API指南(二)Dialog篇">Android API指南(二)Dialog篇</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-14">2014-06-14</time>
+  <a href="http://wangkuiwu.github.com/2014/06/14/ActionBar/" title="Android API指南(二)ActionBar篇">Android API指南(二)ActionBar篇</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-13">2014-06-13</time>
+  <a href="http://wangkuiwu.github.com/2014/06/13/Menu/" title="Android API指南(二)Menu篇">Android API指南(二)Menu篇</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-06-12">2014-06-12</time>
+  <a href="http://wangkuiwu.github.com/2014/06/12/Pickers/" title="Android API指南(二)控件篇07之 Pickers">Android API指南(二)控件篇07之 Pickers</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-04-01">2014-04-01</time>
+  <a href="http://wangkuiwu.github.com/2014/04/01/Activity01/" title="Android 四大组件之Activity篇01之 概述">Android 四大组件之Activity篇01之 概述</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-03-05">2014-03-05</time>
+  <a href="http://wangkuiwu.github.com/2014/03/05/TableLayout/" title="Android布局之 TableLayout">Android布局之 TableLayout</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-03-04">2014-03-04</time>
+  <a href="http://wangkuiwu.github.com/2014/03/04/GridLayout/" title="Android布局之 GridLayout">Android布局之 GridLayout</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-03-03">2014-03-03</time>
+  <a href="http://wangkuiwu.github.com/2014/03/03/FrameLayout/" title="Android布局之 FrameLayout">Android布局之 FrameLayout</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-03-02">2014-03-02</time>
+  <a href="http://wangkuiwu.github.com/2014/03/02/RelativeLayout/" title="Android布局之 RelativeLayout">Android布局之 RelativeLayout</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-03-01">2014-03-01</time>
+  <a href="http://wangkuiwu.github.com/2014/03/01/LinearLayout/" title="Android布局之 LinearLayout">Android布局之 LinearLayout</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-22">2014-02-22</time>
+  <a href="http://wangkuiwu.github.com/2014/02/22/ViewPager/" title="Android控件篇22之 ViewPager">Android控件篇22之 ViewPager</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-21">2014-02-21</time>
+  <a href="http://wangkuiwu.github.com/2014/02/21/TabHost/" title="Android控件篇21之 TabHost">Android控件篇21之 TabHost</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-20">2014-02-20</time>
+  <a href="http://wangkuiwu.github.com/2014/02/20/ImageSwitcher/" title="Android控件篇20之 ImageSwticher">Android控件篇20之 ImageSwticher</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-19">2014-02-19</time>
+  <a href="http://wangkuiwu.github.com/2014/02/19/GridView/" title="Android控件篇19之 GridView">Android控件篇19之 GridView</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-18">2014-02-18</time>
+  <a href="http://wangkuiwu.github.com/2014/02/18/ListView/" title="Android控件篇18之 ListView">Android控件篇18之 ListView</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-17">2014-02-17</time>
+  <a href="http://wangkuiwu.github.com/2014/02/17/TimePicker-DatePicker/" title="Android控件篇17之 DatePicker和TimePicker">Android控件篇17之 DatePicker和TimePicker</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-16">2014-02-16</time>
+  <a href="http://wangkuiwu.github.com/2014/02/16/TextClock/" title="Android控件篇16之 TextClock">Android控件篇16之 TextClock</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-15">2014-02-15</time>
+  <a href="http://wangkuiwu.github.com/2014/02/15/SeekBar02/" title="Android控件篇15之 SeekBar(二)自定义样式">Android控件篇15之 SeekBar(二)自定义样式</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-15">2014-02-15</time>
+  <a href="http://wangkuiwu.github.com/2014/02/15/SeekBar/" title="Android控件篇15之 SeekBar">Android控件篇15之 SeekBar</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-14">2014-02-14</time>
+  <a href="http://wangkuiwu.github.com/2014/02/14/ProgressBar/" title="Android控件篇14之 ProgressBar">Android控件篇14之 ProgressBar</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-13">2014-02-13</time>
+  <a href="http://wangkuiwu.github.com/2014/02/13/Spinner/" title="Android控件篇13之 Spinner">Android控件篇13之 Spinner</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-12">2014-02-12</time>
+  <a href="http://wangkuiwu.github.com/2014/02/12/Toast/" title="Android控件篇12之 Toast">Android控件篇12之 Toast</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-11">2014-02-11</time>
+  <a href="http://wangkuiwu.github.com/2014/02/11/ZoomButton/" title="Android控件篇11之 ZoomButton">Android控件篇11之 ZoomButton</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-10">2014-02-10</time>
+  <a href="http://wangkuiwu.github.com/2014/02/10/ZoomControls/" title="Android控件篇10之 ZoomControls">Android控件篇10之 ZoomControls</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-09">2014-02-09</time>
+  <a href="http://wangkuiwu.github.com/2014/02/09/Switch/" title="Android控件篇09之 Switch">Android控件篇09之 Switch</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-08">2014-02-08</time>
+  <a href="http://wangkuiwu.github.com/2014/02/08/ImageButton/" title="Android控件篇08之 ImageButton">Android控件篇08之 ImageButton</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-07">2014-02-07</time>
+  <a href="http://wangkuiwu.github.com/2014/02/07/ImageView/" title="Android控件篇07之 ImageView">Android控件篇07之 ImageView</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-06">2014-02-06</time>
+  <a href="http://wangkuiwu.github.com/2014/02/06/ToggleButton/" title="Android控件篇06之 ToggleButton">Android控件篇06之 ToggleButton</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-05">2014-02-05</time>
+  <a href="http://wangkuiwu.github.com/2014/02/05/RadioButton/" title="Android控件篇05之 RadioButton">Android控件篇05之 RadioButton</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-04">2014-02-04</time>
+  <a href="http://wangkuiwu.github.com/2014/02/04/CheckBox/" title="Android控件篇04之 CheckBox">Android控件篇04之 CheckBox</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-03">2014-02-03</time>
+  <a href="http://wangkuiwu.github.com/2014/02/03/Button02/" title="Android控件篇03之 Button(二)样式">Android控件篇03之 Button(二)样式</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-03">2014-02-03</time>
+  <a href="http://wangkuiwu.github.com/2014/02/03/Button/" title="Android控件篇03之 Button">Android控件篇03之 Button</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-02">2014-02-02</time>
+  <a href="http://wangkuiwu.github.com/2014/02/02/EditText/" title="Android控件篇02之 EditText">Android控件篇02之 EditText</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-01">2014-02-01</time>
+  <a href="http://wangkuiwu.github.com/2014/02/01/TextView04/" title="Android控件篇01之 TextView(四)Spannable特效">Android控件篇01之 TextView(四)Spannable特效</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-01">2014-02-01</time>
+  <a href="http://wangkuiwu.github.com/2014/02/01/TextView03/" title="Android控件篇01之 TextView(三)跑马灯效果">Android控件篇01之 TextView(三)跑马灯效果</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-01">2014-02-01</time>
+  <a href="http://wangkuiwu.github.com/2014/02/01/TextView02/" title="Android控件篇01之 TextView(二)监听文本变化">Android控件篇01之 TextView(二)监听文本变化</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-02-01">2014-02-01</time>
+  <a href="http://wangkuiwu.github.com/2014/02/01/TextView/" title="Android控件篇01之 TextView">Android控件篇01之 TextView</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-01-12">2014-01-12</time>
+  <a href="http://wangkuiwu.github.com/2014/01/12/SharingSimpleData/" title="Android培训(二)共享篇02之 共享文件">Android培训(二)共享篇02之 共享文件</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-01-11">2014-01-11</time>
+  <a href="http://wangkuiwu.github.com/2014/01/11/SharingSimpleData/" title="Android培训(二)共享篇01之 共享简单数据">Android培训(二)共享篇01之 共享简单数据</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-01-06">2014-01-06</time>
+  <a href="http://wangkuiwu.github.com/2014/01/06/Intent/" title="Android培训(一)开始篇07之 App的交互类Intent">Android培训(一)开始篇07之 App的交互类Intent</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-01-05">2014-01-05</time>
+  <a href="http://wangkuiwu.github.com/2014/01/05/SavingData/" title="Android培训(一)开始篇05之 保存数据">Android培训(一)开始篇05之 保存数据</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-01-04">2014-01-04</time>
+  <a href="http://wangkuiwu.github.com/2014/01/04/ActivityLifecycle/" title="Android培训(一)开始篇04之 Activity的生命周期">Android培训(一)开始篇04之 Activity的生命周期</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-01-03">2014-01-03</time>
+  <a href="http://wangkuiwu.github.com/2014/01/03/SupportDifferentDevice/" title="Android培训(一)开始篇03之 APK支持不同的设备">Android培训(一)开始篇03之 APK支持不同的设备</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-01-02">2014-01-02</time>
+  <a href="http://wangkuiwu.github.com/2014/01/02/ActionBar/" title="Android培训(一)开始篇02之 添加ActionBar">Android培训(一)开始篇02之 添加ActionBar</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2014-01-01">2014-01-01</time>
+  <a href="http://wangkuiwu.github.com/2014/01/01/BuildYourFirstApp/" title="Android培训(一)开始篇01之 创建第一个程序">Android培训(一)开始篇01之 创建第一个程序</a>
+  </li>
+
+
+  <li class="listing-seperator" id="essay">essay</li>
+
+  <li class="listing-item">
+  <time datetime="2014-04-28">2014-04-28</time>
+  <a href="http://wangkuiwu.github.com/2014/04/28/hello-world/" title="第一篇博客">第一篇博客</a>
+  </li>
+
+
+  <li class="listing-seperator" id="gradle">gradle</li>
+
+  <li class="listing-item">
+  <time datetime="2014-07-21">2014-07-21</time>
+  <a href="http://wangkuiwu.github.com/2014/07/21/Decompile/" title="Android反编译">Android反编译</a>
+  </li>
+
+
+  <li class="listing-seperator" id="tomcatjenkins">tomcatjenkins</li>
+
+  <li class="listing-item">
+  <time datetime="2015-08-06">2015-08-06</time>
+  <a href="http://wangkuiwu.github.com/2015/08/06/tomcat-01/" title="Ubuntu中tomcat环境搭建">Ubuntu中tomcat环境搭建</a>
+  </li>
+
+
+  <li class="listing-seperator" id="jenkins">jenkins</li>
+
+  <li class="listing-item">
+  <time datetime="2015-08-07">2015-08-07</time>
+  <a href="http://wangkuiwu.github.com/2015/08/07/jenkins-02/" title="Jenkins工具(二)之 Jenkins集成android工程">Jenkins工具(二)之 Jenkins集成android工程</a>
+  </li>
+
+  <li class="listing-item">
+  <time datetime="2015-08-07">2015-08-07</time>
+  <a href="http://wangkuiwu.github.com/2015/08/07/jenkins-01/" title="Jenkins工具(一)之 Jenkins环境搭建">Jenkins工具(一)之 Jenkins环境搭建</a>
+  </li>
+
+
+</ul>
+
+
+
+
+<!-- <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> -->
+
+
+
+<script language="javascript">
+$.fn.tagcloud.defaults = {
+    size: {start: 1, end: 1, unit: 'em'},
+      color: {start: '#f8e0e6', end: '#ff3333'}
+};
+
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});
+</script>
+
+
+</section>
+
+
+
+</article>
+</div>
+
+    <footer>
+        <p><small>Powered by <a href="https://github.com/wangkuiwu">wangkuiwu</a> | Copyright 2012 - 2015 by <a href="https://github.com/wangkuiwu">wangkuiwu</a> | <span class="label label-info" id="timeSpan"></span></small></p>
+    </footer>
+
+    </div>
+
+    
+  </body>
+</html>
