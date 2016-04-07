@@ -24,24 +24,28 @@ class WeiXin(object):
             if not m:
                 continue
             self.biz = m[0][0]
-            self.uin = m[0][1]
-            self.key = m[0][2]
+            self.key = m[0][1]
+            self.uin = m[0][2]
             break
+
+        print "\nbiz:"+self.biz+"\nkey:"+self.key +"\nuin:"+self.uin;
 
         try:
             while True:
                 self.get_history_list()
+                # break
         except Exception, e:
-            pass
+            print "pass"
         finally:
             print "***  ***"
 
         self.print_result()
 
+
     def get_history_list(self):
 
         self.pre_url = 'http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=%s&key=%s&uin=%s&f=json'
-        self.pre_url = self.pre_url % (self.biz, self.uin, self.key)
+        self.pre_url = self.pre_url % (self.biz, self.key, self.uin)
 
         if self.frommsgid == '':
             txt = ''
@@ -55,6 +59,7 @@ class WeiXin(object):
             print " * Please update the url in readlist.txt * "
             raise Exception('***')
 
+        print "\nUrl:"+url;
         cont = r.content
         cont = cont.replace('\"', '"')
         cont = cont.replace('\\', '')
